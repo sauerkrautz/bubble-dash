@@ -1,0 +1,26 @@
+@import "../../App.scss";
+
+.grid {
+  display: grid;
+
+  &-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, 1fr));
+  }
+
+  @media screen and (min-width: 720px) {
+    &-columns {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(75px, 1fr));
+    }
+  }
+
+  &-rows {
+    display: grid;
+    grid-template-rows: repeat(6, minmax(50px, 1fr));
+  }
+}
+
+.item {
+  color: black;
+}

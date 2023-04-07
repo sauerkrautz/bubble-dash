@@ -1,0 +1,41 @@
+@import "../../../App.scss";
+
+.navbar {
+  width: 100%;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $hero-color;
+  max-height: 4.5rem;
+}
+
+.menu {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  transition: all 500ms;
+  background: $hero-color;
+  left: 0;
+  top: 0;
+  background-color: grey;
+  h1 {
+    color: white;
+  }
+  &_item {
+    &_active {
+      color: red;
+    }
+  }
+}
+
+@keyframes menu {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
