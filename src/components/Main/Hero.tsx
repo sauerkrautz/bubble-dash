@@ -2,7 +2,7 @@ import React, { Children } from "react";
 
 const Hero = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div className="h-fit">
       <div className="heroSection">
         <div>
           <p className="heroMainText">Create Amazing Digital Product</p>
