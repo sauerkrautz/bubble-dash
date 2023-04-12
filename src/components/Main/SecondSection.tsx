@@ -10,10 +10,7 @@ import penNib from "../../assets/afterHero/PenNib.svg";
 
 const SecondSection = () => {
   return (
-    <div
-      className="flex-column-center"
-      style={{ backgroundColor: "#f9f9f9", paddingTop: "7rem" }}
-    >
+    <div className="flex-column-center" style={{ backgroundColor: "#f9f9f9" }}>
       <div className="flex-column-center" style={{ color: "black" }}>
         <p>Our Services</p>
         <p style={{ fontSize: 24 }}>We Provide What You Need</p>
